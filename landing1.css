@@ -1,162 +1,149 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
-.hero-section {
+.hero-container{
     background-color: #1F2937;
-    color: #E5E7EB;
     padding: 50px 15%;
+    margin-bottom: 70px;
 }
-
-.navbar {
+.navBar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 100px;
 }
-
-.logo {
+.logo{
+    color: #F9FAF8;
     font-size: 24px;
-    font-weight: 900;
+    font-weight: 500;
 }
-
-.nav-links {
+.nav_link ul{
     display: flex;
     list-style: none;
     gap: 20px;
 }
-
-.nav-links a {
+.nav_link a {
     color: #E5E7EB;
     text-decoration: none;
     font-size: 18px;
 }
-
-.hero-container {
+.hero_section{
     display: flex;
     align-items: center;
     gap: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
-
-.hero-text h1 {
+.hero_text h1{
+    color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
 }
-
-.hero-text p {
-    color: #E5E7EB;
+.hero_section p{
     font-size: 18px;
-    margin: 10px 0 20px 0;
+    color: #E5E7EB;
+    padding-bottom: 10px;
 }
-
-/* 3. The Signup Button */
-.signup {
+.button_hero{
     background-color: #3882F6;
-    color: white;
+    color: #E5E7EB;
     border: none;
-    padding: 10px 30px;
-    border-radius: 8px;
-    font-weight: 900;
+    padding: 7px 30px;
+    border-radius: 20cap;
     cursor: pointer;
 }
-
-.info-section {
-    padding: 60px 15%;
-    text-align: center;
-}
-
-.info-section h2 {
-    font-size: 36px;
-    font-weight: 900;
-    color: #1F2937;
-    margin-bottom: 40px;
-}
-
-.cards-container {
+.info_section h2{
     display: flex;
     justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.cards_container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
     gap: 40px;
 }
-
-.card {
+.cards{
     width: 150px;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     gap: 10px;
 }
-
-.square {
+.square{
     width: 150px;
     height: 150px;
     border: 4px solid #3882F6;
-    border-radius: 15px;
+    border-radius: 8%;
 }
-
-.card p {
+.cards p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #555;
     font-size: 16px;
+    text-align: center; 
+    padding-bottom: 50px;
 }
-
-.quote-section {
+.quote_section{
     background-color: #E5E7EB;
     padding: 80px 20%;
+    margin-bottom: 70px;
     display: flex;
     justify-content: center;
 }
-
-.quote-section p {
+.quote_text p{
     font-size: 36px;
+    color: #1F2937;
     font-weight: 300;
     font-style: italic;
-    color: #1F2937;
 }
-
-.action-container {
-    padding: 80px 15%;
-    display: flex;
-    justify-content: center;
+.auth{
+    font-size: 25px;
+    text-align: right;
+    font-weight: 900;
 }
-
-.action-banner {
+.call{
     background-color: #3882F6;
-    padding: 40px 80px;
-    border-radius: 10px;
+    margin: 30px 15%;
+    margin-bottom: 70px;
+
+}
+.call-action{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 100%;
+    padding: 30px 70px;
 }
-
-.action-text h3 {
+.call-content h2{
+    font-size: 25px;
     color: #F9FAF8;
-    font-size: 24px;
-    margin-bottom: 5px;
+    font-weight: 600;
 }
-
-.action-text p {
+.call-content p{
+    font-size: 18px;
+    color: #F9FAF8;
+}
+.button_action{
+    background-color: #3882F6;
     color: #E5E7EB;
-}
-
-.button2 {
-    background-color: transparent;
     border: 2px solid #F9FAF8;
-    color: #F9FAF8;
-    padding: 8px 25px;
-    border-radius: 8px;
-    font-weight: bold;
+    padding: 7px 20px;
+    border-radius: 50cap;
     cursor: pointer;
 }
-
-footer {
+footer{
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 30px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 30px 15%;
 }
